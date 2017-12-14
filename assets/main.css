@@ -1,10 +1,12 @@
 .mdl-layout__title {
     font-size: 5rem;
-    text-align: center;
+    text-align: left;
     font-weight: bold;
     font-family: 'Stalemate', cursive;
     line-height: 35px;
     font-color: #ffffff;
+    flex: auto;
+    padding-left: 24px;
 }
 
 .mdl-layout {
@@ -44,13 +46,12 @@
 .vieck-navigation-row {
     text-transform: uppercase;
     height: 45px;
-    background-color: #0023fc;
+    background-color: transparent;
 }
 
 .vieck-navigation-row .mdl-navigation {
-    text-align: center;
+    text-align: right;
     max-width: 900px;
-    width: 100%;
 }
 
 .vieck-navigation-row .mdl-navigation__link {
