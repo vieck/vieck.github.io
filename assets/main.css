@@ -7,6 +7,11 @@
     font-color: #ffffff;
 }
 
+.mdl-layout {
+    background: url("Night Sky 2.svg") no-repeat;
+    background-size: cover;
+}
+
 /*--------------- Header ---------------*/
 .vieck-header {
     position: relative;
