@@ -4,11 +4,9 @@
                 <a href="/" class="title">{{site.title}}</a>
             </span>
         <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
-            <a class="mdl-navigation__link" href="/">About</a>
-            <a class="mdl-navigation__link" href="/experience">Experience</a>
-            <a class="mdl-navigation__link" href="/projects">Projects</a>
-            <a class="mdl-navigation__link" href="/blog">Blog</a>
-            <a class="mdl-navigation__link" href="/contact">Contact</a>
+            {% for item in site.menu %}
+            <a class="mdl-navigation__link" href="{{ item.url | relative_url }}" aria-label="{{ item.title }}">{{ item.title }}</a>
+            {% endfor %}
         </nav>
     </div>
 </header>
