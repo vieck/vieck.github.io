@@ -25,6 +25,8 @@ github_username:  vieck
 
 # Build settings
 markdown: kramdown
+theme: minima
+include: ['_pages']
 gems:
   - jekyll-feed
 exclude:
