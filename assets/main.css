@@ -12,6 +12,7 @@
 .mdl-layout {
     background: url("Night Sky 2.svg") no-repeat;
     background-size: cover;
+    color: white;
 }
 
 /*--------------- Header ---------------*/
