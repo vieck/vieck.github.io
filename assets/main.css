@@ -80,3 +80,22 @@
     /*max-height: 1050px;*/
     height: auto
 }
+
+/* --------- Projects -----------*/
+.udemy {
+    margin: 0 auto;
+}
+.card {
+    /*background-color: rgba(49, 101, 132, 0.57);*/
+    width: 50rem;
+}
+
+.card-img-top {
+    text-align: center;
+}
+
+.img-fluid {
+    max-width: 800px;
+    /*max-height: 1050px;*/
+    height: auto
+}
