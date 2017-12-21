@@ -2,48 +2,17 @@
 layout: default
 ---
 <div class="projects">
+    {% for project in site.data.projects %}
     <div class="card">
         <div class="card-body">
-            <h4 class="card-title">Purdue Laundry App</h4>
+            <h4 class="card-title">{{project.name}}</h4>
             <hr>
             <div class="card-img-top">
-                <img class="img-fluid" style="margin: 0 auto" src="https://lh3.googleusercontent.com/l0om5PhjIoHdOCtsp8-XnlcfHZ4necZoxlyEGaaEg5_maNojU_3nKxegN5t60weDDP4i=h900-rw" alt="Card image cap">
+                <img class="img-fluid" style="margin: 0 auto" src="{{project.img}}" alt="Card image cap">
             </div>
-            <p class="card-text">App for checking laundry availabilities in the Purdue dorms.</p>
-            <a href="https://goo.gl/jVwKn7" class="btn btn-primary">Link</a>
+            <p class="card-text">{{project.desc}}</p>
+            <a href="https://goo.gl/jVwKn7" class="btn btn-primary">{{project.url}}</a>
         </div>
     </div>
-    <div class="card">
-        <div class="card-body">
-            <h4 class="card-title">Roman VR</h4>
-            <hr>
-            <div class="card-img-top">
-                <img class="img-fluid" style="margin: 0 auto" src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Aeolipile_illustration.png" alt="Card image cap">
-            </div>
-            <p class="card-text">A virtual reality experience where you can interact with theoretical machines made by ancient engineers.</p>
-            <a href="https://goo.gl/jVwKn7" class="btn btn-primary">Link</a>
-        </div>
-    </div>
-    <div class="card">
-        <div class="card-body">
-            <h4 class="card-title">Udemy</h4>
-            <hr>
-            <div class="card-img-top">
-                <img class="img-fluid" style="margin: 0 auto" src="https://www.udemy.com/staticx/udemy/images/v6/default-meta-image.png" alt="Card image cap">
-            </div>
-            <p class="card-text">I am a course instructor on Udemy.</p>
-            <a href="https://goo.gl/jVwKn7" class="btn btn-primary">Link</a>
-        </div>
-    </div>
-    <div class="card">
-        <div class="card-body">
-            <h4 class="card-title">Firebase UI - Android</h4>
-            <hr>
-            <div class="card-img-top">
-                <img class="img-fluid" style="margin: 0 auto" src="https://1.bp.blogspot.com/-YIfQT6q8ZM4/Vzyq5z1B8HI/AAAAAAAAAAc/UmWSSMLKtKgtH7CACElUp12zXkrPK5UoACLcB/s1600/image00.png" alt="Card image cap">
-            </div>
-            <p class="card-text">I have contributed to the Firebase UI library for Android.</p>
-            <a href="https://goo.gl/jVwKn7" class="btn btn-primary">Link</a>
-        </div>
-    </div>
+    {% endfor %}
 </div>
