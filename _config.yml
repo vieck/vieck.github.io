@@ -33,16 +33,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-# Site menu settings
-menu:
-  - title: "About"
-    url: "/about"
-  - title: "Experience"
-    url: "/experience"
-  - title: "Projects"
-    url: "/projects"
-  - title: "Blog"
-    url: "/blog"
-  - title: "Contact"
-    url: "/contact"
 # End
