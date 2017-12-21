@@ -1,0 +1,19 @@
+- name:  Purdue Laundry App
+  url:   /interface/
+  img:  https://lh3.googleusercontent.com/l0om5PhjIoHdOCtsp8-XnlcfHZ4necZoxlyEGaaEg5_maNojU_3nKxegN5t60weDDP4i=h900-rw
+  desc: App for checking laundry availabilities in the Purdue dorms.
+
+- name:  Roman VR
+  url:   /fun/ffysics
+  img:  https://upload.wikimedia.org/wikipedia/commons/b/b8/Aeolipile_illustration.png
+  desc: A virtual reality experience where you can interact with theoretical machines made by ancient engineers.
+
+- name:  Udemy
+  url:   https://github.com/rsms/fb-mac-messenger
+  img:  https://www.udemy.com/staticx/udemy/images/v6/default-meta-image.png
+  desc: I am an instructor on Udemy.
+
+- name:  Firebase UI - Android
+  url:   https://1.bp.blogspot.com/-YIfQT6q8ZM4/Vzyq5z1B8HI/AAAAAAAAAAc/UmWSSMLKtKgtH7CACElUp12zXkrPK5UoACLcB/s1600/image00.png
+  img:  https://1.bp.blogspot.com/-YIfQT6q8ZM4/Vzyq5z1B8HI/AAAAAAAAAAc/UmWSSMLKtKgtH7CACElUp12zXkrPK5UoACLcB/s1600/image00.png
+  desc: I have contributed to the Firebase UI library for Android.
