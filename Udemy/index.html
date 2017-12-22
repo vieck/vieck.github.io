@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="udemy">
     <h1>Welcome to my teaching page.</h1>
-    <div class="row">
+    <div class="card-deck">
         {% for course in site.data.courses %}
         <div class="card">
             <div class="card-body">
@@ -13,7 +13,7 @@ layout: default
                     <img class="img-fluid" style="margin: 0 auto" src="{{course.img}}" alt="Card image cap">
                 </div>
                 <h4 class="card-text">{{course.desc}}</h4>
-                <p class="card-text">Published {{course.published}}</p>
+                <p class="card-text dark-text">Published {{course.published}}</p>
                 <a href="https://goo.gl/jVwKn7" class="btn btn-primary">{{course.url}}</a>
             </div>
         </div>
