@@ -11,7 +11,7 @@ layout: default
                 <h4 class="card-title">{{course.name}}</h4>
                 <label class="card-text">{{course.desc}}</label>
                 <p class="card-text dark-text">Published {{course.published}}</p>
-                <a href="https://goo.gl/jVwKn7" class="btn btn-primary">{{course.url}}</a>
+                <a href="{{course.url}}" class="btn btn-primary">Link <i class="fa fa-link" aria-hidden="true"></i></a>
             </div>
         </div>
         {% endfor %}
