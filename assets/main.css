@@ -85,9 +85,11 @@
 .udemy {
     margin: 0 auto;
 }
-.card {
+.udemy .card {
     /*background-color: rgba(49, 101, 132, 0.57);*/
     width: 50rem;
+    margin-right: 3em;
+    margin-left: 3em;
 }
 
 .card-img-top {

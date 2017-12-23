@@ -1,11 +1,13 @@
 - name:  'Android Material Design: Learning Through Example'
   url:   https://www.udemy.com/android-material-design-learning-through-example/
   img:  https://udemy-images.udemy.com/course/750x422/523692_fe1e_2.jpg
+  color: darkgreen
   desc: Practical Android course for Material Design.
   published: 1/2017
 
 - name:  Using Java For Advanced Applications
   url:   https://www.udemy.com/using-java-for-advanced-applications/
   img:  https://udemy-images.udemy.com/course/750x422/446774_dd76_2.jpg
+  color: lightcoral
   desc: Course for teaching advanced Java concepts like concurrency, servers, and JavaFX.
   published: 1/2017
