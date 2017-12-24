@@ -120,3 +120,8 @@
 .dark-text {
     color: deepskyblue;
 }
+
+/* --------- Blog -----------*/
+.blog> .list li {
+    list-style-type: none;
+}
