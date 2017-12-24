@@ -80,3 +80,28 @@
     /*max-height: 1050px;*/
     height: auto
 }
+
+/* --------- Udemy -----------*/
+.udemy {
+    margin: 0 auto;
+}
+.udemy .card {
+    /*background-color: rgba(49, 101, 132, 0.57);*/
+    width: 50rem;
+    margin-right: 3em;
+    margin-left: 3em;
+    border-color: #007bff;
+}
+
+.card-img-top {
+    text-align: center;
+}
+
+.img-fluid {
+    max-width: 800px;
+    /*max-height: 1050px;*/
+    height: auto
+}
+.dark-text {
+    color: deepskyblue;
+}

@@ -4,7 +4,7 @@
                 <a href="/" class="title">{{site.title}}</a>
             </span>
         <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
-            {% for item in site.menu %}
+            {% for item in site.data.menu %}
             <a class="mdl-navigation__link" href="{{ item.url | relative_url }}" aria-label="{{ item.title }}">{{ item.title }}</a>
             {% endfor %}
         </nav>
