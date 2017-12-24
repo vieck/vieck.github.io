@@ -62,6 +62,13 @@
     line-height: 42px;
 }
 
+/* --------- Home ---------------*/
+.home {
+    width: 100%;
+}
+.home .col {
+    padding: 0 !important;
+}
 /* --------- Projects -----------*/
 .projects {
     margin: 0 auto;
