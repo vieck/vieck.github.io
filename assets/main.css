@@ -120,3 +120,14 @@
 .dark-text {
     color: deepskyblue;
 }
+
+/* --------- Blog -----------*/
+.blog {
+    background-color: rgba(33,37,41,.4);
+}
+
+.blog> .list li {
+    list-style-type: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
