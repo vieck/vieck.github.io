@@ -82,12 +82,16 @@
     margin: 0 auto;
 }
 .card {
-    /*background-color: rgba(49, 101, 132, 0.57);*/
+    background-color: rgba(49, 101, 132, 0.57);
     width: 50rem;
+    padding-top: 50px;
+    margin-bottom: 100px;
 }
 
 .card-img-top {
     text-align: center;
+    max-width: 500px;
+    height: auto;
 }
 
 .img-fluid {
