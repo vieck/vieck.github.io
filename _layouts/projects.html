@@ -4,14 +4,13 @@ layout: default
 <div class="projects">
     {% for project in site.data.projects %}
     <div class="card">
+        <img class="card-img-top" style="margin: 0 auto; text-align: center" src="{{project.img}}" alt="Card image cap">
+
         <div class="card-body">
             <h4 class="card-title">{{project.name}}</h4>
             <hr>
-            <div class="card-img-top">
-                <img class="img-fluid" style="margin: 0 auto" src="{{project.img}}" alt="Card image cap">
-            </div>
             <p class="card-text">{{project.desc}}</p>
-            <a href="https://goo.gl/jVwKn7" class="btn btn-primary">{{project.url}}</a>
+            <a href="{{project.url}}" class="btn btn-primary">Link</a>
         </div>
     </div>
     {% endfor %}
